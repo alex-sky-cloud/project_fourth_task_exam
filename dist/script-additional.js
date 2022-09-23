@@ -1,3 +1,5 @@
+// noinspection DuplicatedCode
+
 document.addEventListener("DOMContentLoaded", function () {
     let layer = document.querySelector('.price-image');
     document.addEventListener('mousemove', (event) => {

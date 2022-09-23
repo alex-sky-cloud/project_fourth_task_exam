@@ -29,9 +29,10 @@
 
 3. Вставьте следующий код в конец файла script.js:
 
-     ```js script
+    ```js script
       import './dist/script-additional.js'
-   
+    ```
+    ```js script
     document.addEventListener("DOMContentLoaded", function () {
      let layer = document.querySelector('.price-image');
      document.addEventListener('mousemove', (event) => {
